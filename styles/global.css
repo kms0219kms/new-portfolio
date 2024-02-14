@@ -1,5 +1,4 @@
 @import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.2/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
-@import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
 
 * {
   box-sizing: border-box;
@@ -17,8 +16,8 @@ html {
 }
 
 body {
-  --notion-font: Tossface, "Wanted Sans Variable", "Wanted Sans", -apple-system,
-  BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --notion-font: "Wanted Sans Variable", -apple-system, BlinkMacSystemFont,
+  system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
   font-family: var(--notion-font);
   overflow-x: hidden;
 }
