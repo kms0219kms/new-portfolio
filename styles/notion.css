@@ -7,8 +7,6 @@
  * places to add some flare.
  */
 
- @import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
-
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
@@ -56,7 +54,7 @@
 }
 
 .notion-page-icon {
-  font-family: TossFace, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji,
+  font-family: Tossface, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji,
   "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
 }
 
