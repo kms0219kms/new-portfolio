@@ -18,7 +18,7 @@ html {
 
 body {
   --notion-font: "Wanted Sans Variable", -apple-system, BlinkMacSystemFont,
-  system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", Tossface, sans-serif;
   font-family: var(--notion-font);
   overflow-x: hidden;
 }
