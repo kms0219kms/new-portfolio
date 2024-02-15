@@ -43,7 +43,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/ko/blog': '9ef021736d054df5b671090442e5ead7',
+    '/blog-ko': '9ef021736d054df5b671090442e5ead7',
     '/ko': '087bf8634f4d4082ae987c23c82fc42c',
     '/en': '1f17207bf68a41cb9aeb049b270415ff'
   },
