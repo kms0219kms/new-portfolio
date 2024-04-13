@@ -215,6 +215,10 @@
   }
 }
 
+@media print {
+  .footer { display: none; }
+}
+
 .hidden {
   visibility: hidden;
 }

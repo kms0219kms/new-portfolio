@@ -408,3 +408,8 @@
 .notion-equation.notion-equation-block{
   align-items: center;
 }
+
+/* Print */
+@media print {
+  .notion-header { display: none; }
+}
