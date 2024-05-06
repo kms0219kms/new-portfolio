@@ -54,8 +54,8 @@
 }
 
 .notion-page-icon {
-  font-family: Tossface, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji,
-  "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
+  font-family: Tossface, 'Apple Color Emoji', 'Segoe UI Emoji', NotoColorEmoji,
+    'Noto Color Emoji', 'Segoe UI Symbol', 'Android Emoji', EmojiSymbols;
 }
 
 .notion-gallery-grid {
@@ -357,6 +357,7 @@
   border-radius: 50%;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
 }
+
 .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {
   border-radius: 50%;
@@ -405,11 +406,18 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
 }
 
 /* Print */
 @media print {
-  .notion-header { display: none; }
+  .notion-header {
+    display: none !important;
+  }
+
+  :not([role='img']) {
+    --notion-font: sans-serif !important;
+    font-family: var(--notion-font) !important;
+  }
 }

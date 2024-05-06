@@ -216,7 +216,13 @@
 }
 
 @media print {
-  .footer { display: none; }
+  .footer {
+    display: none;
+  }
+
+  .container {
+    font-family: sans-serif;
+  }
 }
 
 .hidden {
